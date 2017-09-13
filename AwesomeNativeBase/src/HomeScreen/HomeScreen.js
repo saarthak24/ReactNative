@@ -23,7 +23,7 @@ export default class HomeScreen extends React.Component {
           <Card>
             <CardItem>
               <Body>
-                <Text>Chat App to talk some awesome people!</Text>
+                <Text>Basic Chat App!</Text>
               </Body>
             </CardItem>
           </Card>
@@ -35,7 +35,7 @@ export default class HomeScreen extends React.Component {
           <Button full rounded primary
             style={{ marginTop: 10 }}
             onPress={() => this.props.navigation.navigate("Profile")}>
-            <Text>Goto Profiles</Text>
+            <Text>Profiles</Text>
           </Button>
         </Content>
       </Container>
